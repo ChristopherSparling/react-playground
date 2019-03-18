@@ -1,17 +1,16 @@
-import React, {Component} from 'react'
+import React from 'react'
 
-class MovieData extends Component {
+class MovieData extends Component  {
     constructor(){
         super()
-        this.state = {
-
-        }
     }
-
+    demoMethod(){
+        this.props.sendData(value)
+    }
     render() {
         return (
             <div>
-                
+                {props.data.title}
             </div>
         )
     }
